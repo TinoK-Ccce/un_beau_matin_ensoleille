@@ -1,39 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+body, html {
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('C:\Users\cdenjean\OneDrive - Capgemini\Images\R.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 h1 {
+    font-family: Arial, sans-serif;
+    font-size: 3em;
     color: #333;
-    text-align: center;
-    margin-top: 20px;
-}
-
-nav ul {
-    background: #333;
-    color: white;
-    list-style: none;
-    text-align: center;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: white;
-    padding: 10px 20px;
-    display: inline-block;
-    text-decoration: none;
-}
-
-section {
-    background: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
 }
